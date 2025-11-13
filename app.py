@@ -131,3 +131,16 @@ if st.button('Show Recommendation'):
         with col:
             st.text(rec_names[i])
             st.image(rec_posters[i], use_column_width='always')
+
+
+st.markdown(
+    """
+    <div style="text-align:center; margin-top:40px; font-size:22px; 
+                font-weight:900; color:#1DB954; letter-spacing:1px;">
+        DEVELOPED BY <span style="color:#FFFFFF; background:#1DB954; padding:5px 12px; border-radius:8px;">
+        RAKESH & RAHUL
+        </span>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
